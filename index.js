@@ -111,7 +111,7 @@ function createRock(x) {
  */
 function endGame() {
  alert("Game Over. You Loose!!!")
- ROCKS = []
+  clearInterval(gameInterval)
 }
 
 function moveDodger(e) {
