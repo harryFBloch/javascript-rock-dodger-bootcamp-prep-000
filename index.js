@@ -62,7 +62,7 @@ function createRock(x) {
   var top = 0
 
   rock.style.top = top
-  game.append(rock)
+  GAME.appendChild(rock)
 
   function moveRock() {
     // implement me!
